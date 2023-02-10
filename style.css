@@ -1,0 +1,71 @@
+body{
+  background-image: url("./images/Png.jpeg");
+  font-family: 'Raleway', sans-serif;
+  color:#241913;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+  list-style: none;
+}
+h1,h2,h3{
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+  color: #7F5943;
+}
+
+#profile{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+a:hover {
+  color: #120D0A ;
+}
+
+.card{
+  background-color: rgba(225, 220, 220, 1);
+  padding: 50px;
+  width: 900px;
+  margin: 30px auto;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 1s;
+}
+
+.card:hover {
+  background-color: rgba(225, 220, 220, 0.5);
+  transition: 1s;
+}
+
+.hobbies-list{
+  list-style: none;
+}
+
+#list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+
+#list-inline > ul {
+  margin: 0px 0px ;
+  padding: 0;
+}
+
+
+.list {
+  list-style: none;
+}
+
+.fa-brands {
+  width: 100px;
+  height: 100px;
+}
+
+#list-inline {
+  padding: 0;
+}
